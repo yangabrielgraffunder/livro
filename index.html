@@ -46,5 +46,21 @@
 <div class="4">
     <img src="tirica.jpeg" class="tirica">
 </div>
+    <form>
+        defina seu nivel de satisfação<br>
+        pouco satisfeito
+        <input type="range"name="satisfacao" min="0" max="10">
+        muito satisfeito
+        <br>
+        quantidade (entre 1 e 5) <input type="number" name="quantidade" min="1" max="5">
+
+        <br>
+        <input type="button" value="Clique Aqui" onclick="msg()">
+
+        <script>
+            function msg(){
+                alert("Você clicou no botão")
+            }
+        </script>
 </body>
 </html>
